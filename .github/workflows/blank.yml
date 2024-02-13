@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost Signal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="landing-page">
+        <div class="background"></div>
+        <div class="content">
+            <h1 class="title">LOST SIGNAL. SUBMISSION REQUIRED.</h1>
+            <img src="vhs-tape.jpg" class="vhs-tape" alt="VHS Tape">
+            <form id="submission-form">
+                <input type="text" id="name" placeholder="NAME (Required)" required>
+                <input type="text" id="memory" placeholder="MOST TREASURED MEMORY (Required)" required>
+                <button type="submit" id="submit-btn">SUBMIT</button>
+            </form>
+            <p class="info">Remember, submission ensures signal.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
